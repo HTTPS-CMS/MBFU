@@ -30,45 +30,20 @@
 <br>
 <br>
 
-<form method="POST">
-  <script>
-    var str='<INPUT TYPE="hidden" NAME="nonce" VALUE="';
-        str+='1757433651">';
-      document.write(str);
-   </script><input type="hidden" name="nonce" value="1757433651">
-  <input type="hidden" name="hash" value="894f1305c078b151aa57840efda5e12640b735ae">
+<div id="sigCommentsBlock"></div>
+<a href="http://sigcomments.com" style="font-size: 0.6em;">Система комментирования SigComments</a>
+<script type="text/javascript">
+	(function(){
+		var host_id = '8004';
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.async = true;
+		script.src = '//sigcomments.com/chat/?host_id='+host_id;
+		var ss = document.getElementsByTagName('script')[0]; 
+		ss.parentNode.insertBefore(script, ss);
+	})();
+</script>
 
-  <table width="400" cellpadding="4">
-    <tbody><tr>
-      <td align="RIGHT">
-        Name:
-      </td>
-      <td>
-        <input name="name" type="text" size="22">
-      </td>
-    </tr>
-    <tr>
-      <td align="RIGHT">
-        Email:
-      </td>
-      <td>
-        <input name="email" type="text" size="22">
-      </td>
-    </tr>
-    <tr>
-      <td align="RIGHT" valign="TOP">
-        Your Message:
-      </td>
-      <td>
-        <textarea name="message" rows="4" cols="22"></textarea>
-        <br>
-        <p>
-          <input type="SUBMIT" value="SIGN!">
-        </p>
-      </td>
-    </tr>
-  </tbody></table>
-</form>
 <br>
 <hr width="400" size="1">
 <img src="./data/library.gif">
